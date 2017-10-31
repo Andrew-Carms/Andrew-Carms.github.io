@@ -12,11 +12,12 @@
         margin: 0 auto; 
         margin-top: -2%; 
         display: flex; }
-#soccer{ width: 22%;
+#soccer{ width: 25%;
          margin-top: -19%; 
          margin-right: 450pt; 
          display: flex; }
 #grind{ width: 20%;
+        height: 20%;
         margin-left: 80%; 
         margin-top: -24%;
         display: flex; }
