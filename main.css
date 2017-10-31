@@ -1,26 +1,23 @@
 #blog{ border: 1px solid black; }
 
-
-#top{ text-align: center; 
-      font-size: 30px; 
-      border-style: dashed; } 
-#thisismyblog{ margin-top: 0%; 
-               margin-bottom: 1.5%; }
-
+#top{ border-style: dashed; }
+#title{ text-align: center; 
+        font-size: 30px; } 
 #emoji{ width: 25%;
-        display: block;
         margin: 0 auto; 
         margin-top: -1.5%; 
-        display: flex;} 
+        display: flex; } 
 #soccer{ width: 25%;
-         height: 165pt;
          margin-top: -18%;
          margin-right: 450pt; 
          display: flex; }
 #grind{ width: 20%;
         margin-left: 80%; 
-        margin-top: -24.5%;
+        margin-top: -22.5%;
         display: flex; }
+#welcome{ text-align: center;
+          margin-top: -2%; 
+          margin-bottom: 2%; }
 
 #body1{ text-align: center; 
         border-style: groove; 
@@ -32,15 +29,16 @@
         font-size: 20px; }
 #body3{ text-align: left; 
         border-style: groove; 
-        font-family: 'Saira Semi Condensed', sans-serif; }
+        font-family: 'Saira Semi Condensed', sans-serif; 
+        display: flex; }
 
 #footer{ border-style: dashed; }
 #footer1{ text-align: center;
           color: red; 
           font: bold; }
 #blogpic{ width: 35%;
-          display: flex-right; 
-          height: 400px; }
+          margin: 0 auto; 
+          display: flex; }
 #footer2{ font-size: 80px; 
           color: blue; 
           text-align: center; }
