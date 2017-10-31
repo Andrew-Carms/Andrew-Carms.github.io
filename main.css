@@ -2,24 +2,24 @@
 
 
 #top{ text-align: center; 
-      font-size: 28px; 
+      font-size: 30px; 
       border-style: dashed; } 
-#thisismyblog{ margin-top: -2%; 
-               margin-bottom: 2%; }
+#thisismyblog{ margin-top: 0%; 
+               margin-bottom: 1.5%; }
 
 #emoji{ width: 25%; 
         display: block;
         margin: 0 auto; 
-        margin-top: -2%; 
+        margin-top: -1%; 
         display: flex; }
 #soccer{ width: 25%;
-         margin-top: -19%; 
+         height: 185pt;
+         margin-top: -18%;
          margin-right: 450pt; 
          display: flex; }
 #grind{ width: 20%;
-        height: 20%;
         margin-left: 80%; 
-        margin-top: -24%;
+        margin-top: -21%;
         display: flex; }
 
 #body1{ text-align: center; 
