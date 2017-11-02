@@ -1,66 +1,29 @@
----
-layout: default
-title: John Smith, the Horrible Cop
----
-
-<head>
-  <link rel="stylesheet" href="main.css">
-</head>
-<div id="blog">
-
-<div id="top">
- 
- <div id="title">
-  <h1>Hey Guys It's Me !</h1>
- </div>
-  
-    <img id="emoji"
-src="https://i.pinimg.com/736x/36/1f/a2/361fa2246dc78579fca544e3b6c12c1c--smiley-symbol-happy-faces.jpg">
-  
-    <img id="soccer"
-src="http://www.digi-labs.net/blog/wp-content/uploads/2014/02/soccer-ball.jpg">
-  
-    <img id="grind" src="http://poster.keepcalmandposters.com/77493.png">
-  <p id="welcome"> <font size="+4">Welcome To My Blog.</font> </p>
-
-</div>
-<div id="body1">
-  <p> Hi,I love food, soccer, my family, life ! And I hope you love your life too ;) 
-  </p>
-</div>
-
-<div id="quote">
-" Work So Hard That One Day Your Signature Will Be Called An Autograph. "
-</div>
-
-<div id="body3">
-  <p> Day 1 - 10/27/2017  -->  I made my Blog ! </p>
-</div>
-
-<div id="footer">
-
-<div id="footer1">
-<b> 
-<p> 
-  If you want to contact Me... 
-</p>
-<p> 
-  <a href="https://www.google.com/?safe=active&ssui=on">Email - bigbbme@mj.org</a> 
-</p>
-<p> 
-  <a href="https://www.google.com/?safe=active&ssui=on">Fax - 123-555-6789</a>
-</p>
-  </b>
-</div>
-  
-<p>  <img id="blogpic"
-src="https://matthewbeale.files.wordpress.com/2012/09/ned-stark-blog.jpg"> 
-</p>
-
-<div id="footer2">
-<p> See you guys next time !!! ;) </p>
-</div>
-
-</div>
-
-</div>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
