@@ -1,11 +1,11 @@
 ---
 layout: default
-title: John Smith's Blog
+title: Hank Quinlan's Blog
 ---
-	<h1>Hey Guys It's Me</h1>
+	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span> 01.Nov </span> » <a href="https://i.pinimg.com/736x/36/1f/a2/361fa2246dc78579fca544e3b6c12c1c--smiley-symbol-happy-faces.jpg" title="Day 1 of Blog"> Day 1 of Blog </a></li>
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
