@@ -8,7 +8,7 @@
         margin-top: -1.5%; 
         display: flex; } 
 #soccer{ width: 25%;
-         margin-top: -18%;
+         margin-top: -19.5%;
          margin-right: 450pt; 
          display: flex; }
 #grind{ width: 20%;
@@ -16,8 +16,8 @@
         margin-top: -22.5%;
         display: flex; }
 #welcome{ text-align: center;
-          margin-top: -2%; 
-          margin-bottom: 2%; }
+          margin-top: -.5%; 
+          margin-bottom: 1.5%; }
 
 #body1{ text-align: center; 
         border-style: groove; 
