@@ -2,7 +2,8 @@
 
 #top{ border-style: dashed; }
 #title{ text-align: center; 
-        font-size: 30px; } 
+        font-size: 30px; 
+        display: inline; } 
 #emoji{ width: 25%;
         margin: 0 auto; 
         margin-top: -1.5%; 
@@ -16,21 +17,20 @@
         margin-top: -22.76%;
         display: flex; }
 #welcome{ text-align: center;
-          margin-top: -0.8%; 
-          margin-bottom: 1.5%; }
+          margin-top: -0.2%; }
 
 #body1{ text-align: center; 
         border-style: groove; 
         font-family: 'Saira Semi Condensed', sans-serif; }
 #quote{ text-align: center; 
         border-style: groove; 
-        padding: 5px; 
+        padding: 10px; 
         font-family: 'Yellowtail', cursive;
-        font-size: 20px; }
+        font-size: 21px; }
 #body3{ text-align: left; 
         border-style: groove; 
         font-family: 'Saira Semi Condensed', sans-serif; 
-        display: flex; }
+        margin-top: -0.5%; }
 
 #footer{ border-style: dashed; }
 #footer1{ text-align: center;
