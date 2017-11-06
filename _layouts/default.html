@@ -7,8 +7,9 @@
 <div class="content-wrapper">
 
 {% for posts in site.posts %}
-	<h2> {{ post.title }} HH
-	</h2>
+	<h2> {{ post.title }} </h2>
+	<p> {{ post.date }} </p>
+	{{ post.excerpt }}
 
 		
 {% endfor %}		
