@@ -1,6 +1,7 @@
 #blog{ border: 1px solid black; }
 
 #top{ border-style: dashed; }
+
 #title{ text-align: center; 
         font-size: 30px; 
         display: inline; } 
@@ -17,17 +18,18 @@
         margin-top: -22.76%;
         display: flex; }
 #welcome{ text-align: center;
-          margin-top: -1%; }
+          margin-top: 1%; }
 
 #body1{ text-align: center; 
         border-style: groove; 
         font-family: 'Saira Semi Condensed', sans-serif; 
-        margin-top: -0.1%; }
-#quote{ text-align: center; 
+        margin-top: 0.1%; }
+#quote{ text-align: center;
         border-style: groove; 
         padding: 10px; 
         font-family: 'Yellowtail', cursive;
-        font-size: 20px; }
+        font-size: 20px;
+        margin-bottom: 0.5%; }
 #body3{ text-align: left; 
         border-style: groove; 
         font-family: 'Saira Semi Condensed', sans-serif; 
