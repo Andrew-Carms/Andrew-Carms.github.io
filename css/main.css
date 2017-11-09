@@ -1,49 +1,43 @@
-#blog{ border: 1px solid black; }
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 
-#top{ border-style: dashed; }
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
 
-#title{ text-align: center; 
-        font-size: 30px; 
-        display: inline; } 
-#emoji{ width: 25%;
-        margin: 0 auto; 
-        margin-top: -1.5%; 
-        display: flex; } 
-#soccer{ width: 25%;
-         margin-top: -19.5%;
-         margin-right: 450pt; 
-         display: flex; }
-#grind{ width: 20%;
-        margin-left: 80%; 
-        margin-top: -22.76%;
-        display: flex; }
-#welcome{ text-align: center;
-          margin-top: 1%; }
-
-#body1{ text-align: center; 
-        border-style: groove; 
-        font-family: 'Saira Semi Condensed', sans-serif; 
-        margin-top: 0.1%; }
-#quote{ text-align: center;
-        border-style: groove; 
-        padding: 10px; 
-        font-family: 'Yellowtail', cursive;
-        font-size: 20px;
-        margin-bottom: 0.5%; }
-#body3{ text-align: left; 
-        border-style: groove; 
-        font-family: 'Saira Semi Condensed', sans-serif; 
-        margin-top: -0.5%; }
-
-#footer{ border-style: dashed; }
-#footer1{ text-align: center;
-          color: red; 
-          font: bold; }
-#blogpic{ width: 35%;
-          margin: 0 auto; 
-          display: flex; }
-#footer2{ text-align: center;
-          font-size: 80px; 
-          color: blue;
-          margin-top: -3%;
-          margin-bottom: -3%; }
+ul.posts li {
+    list-style: none;
+}
