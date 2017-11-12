@@ -7,8 +7,7 @@ nav ul, footer ul { font-family:'Helvetica', 'Arial', 'Sans-Serif';
                     list-style: none;
                     font-weight: bold; 
                     color: #999; }
-nav ul li { display: inline;
-            margin-right: 10%; }
+nav ul li { display: inline; }
 footer ul li { display: inline;
                margin-right: 20px; }
 
