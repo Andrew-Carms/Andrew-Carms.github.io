@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trying to<i>figure it out</i>"
+title: "Trying to <i>figure it out</i>"
 date: 2017-11-05
 ---
 
