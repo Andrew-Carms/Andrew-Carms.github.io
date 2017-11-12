@@ -26,9 +26,13 @@ ul.posts li {
     list-style: none;
 }
 
+#blog{ border: 1px solid black; }
+
+#top{ border-style: dashed; }
+
 #title{ text-align: center; 
         font-size: 30px; 
-        display: inline; }
+        display: inline; } 
 #emoji{ width: 25%;
         margin: 0 auto; 
         margin-top: -1.5%; 
@@ -43,3 +47,9 @@ ul.posts li {
         display: flex; }
 #welcome{ text-align: center;
           margin-top: 1%; }
+#quote{ text-align: center;
+        border-style: groove; 
+        padding: 10px; 
+        font-family: 'Yellowtail', cursive;
+        font-size: 20px;
+        margin-bottom: 0.5%; }
