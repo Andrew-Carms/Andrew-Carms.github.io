@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Constructing My Idea for the Blog"
+title: "Constructing My Idea For The Blog"
 date: 2017-10-27
 ---
 
