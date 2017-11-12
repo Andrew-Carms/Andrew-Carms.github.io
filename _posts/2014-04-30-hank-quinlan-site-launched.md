@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 1 of <u>the</u> Blog"
+title: "Day 1"
 date: 2017-10-27
 ---
 
