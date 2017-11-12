@@ -41,3 +41,21 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+#title{ text-align: center; 
+        font-size: 30px; 
+        display: inline; }
+#emoji{ width: 25%;
+        margin: 0 auto; 
+        margin-top: -1.5%; 
+        display: flex; } 
+#soccer{ width: 25%;
+         margin-top: -19.5%;
+         margin-right: 450pt; 
+         display: flex; }
+#grind{ width: 20%;
+        margin-left: 80%; 
+        margin-top: -22.76%;
+        display: flex; }
+#welcome{ text-align: center;
+          margin-top: 1%; }
