@@ -2,13 +2,13 @@ a{ text-decoration: none;
    color: blue; }
 a:hover{ text-decoration: underline; }
 
-nav ul { margin-right: 5%;
-         display: inline; }
 nav ul, footer ul { font-family:'Helvetica', 'Arial', 'Sans-Serif';
                     padding: 0px;
                     list-style: none;
                     font-weight: bold; 
                     color: #999; }
+nav ul li{ margin-left: -5%;
+           display: inline; }
 nav ul li, footer ul li { display: inline;
                           margin-right: 20px; }
 
