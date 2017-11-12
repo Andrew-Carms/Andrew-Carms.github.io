@@ -20,8 +20,8 @@ ul.posts{ border-style: groove;
 ul.posts li { list-style: none; }
 
 #blog{ border: 1px solid black; 
-       margin: 95px auto; 
-       width: 50%; }
+       margin: 5px auto; 
+       width: 101%; }
  
 #top{ border-style: dashed; }
 
