@@ -2,13 +2,14 @@ a{ text-decoration: none;
    color: blue; }
 a:hover{ text-decoration: underline; }
 
+nav { margin-right: 20%; }
 nav ul, footer ul { font-family:'Helvetica', 'Arial', 'Sans-Serif';
                     padding: 0px;
                     list-style: none;
                     font-weight: bold; 
                     color: #999; }
 nav ul li, footer ul li { display: inline;
-                          margin-right: 10px; }
+                          margin-right: 15px; }
 
 footer { border-top: 1px solid #d5d5d5;
          font-size: .8em; }
@@ -16,7 +17,6 @@ footer { border-top: 1px solid #d5d5d5;
 ul.posts{ border-style: groove; 
           font-family: 'Saira Semi Condensed', sans-serif; 
           margin-top: -0.5%; }
-
 ul.posts li { list-style: none; }
 
 #blog{ border: 1px solid black; }
@@ -38,6 +38,7 @@ ul.posts li { list-style: none; }
         margin-left: 80%; 
         margin-top: -22.76%;
         display: flex; }
+
 #welcome{ text-align: center;
           margin-top: 1%; }
 
