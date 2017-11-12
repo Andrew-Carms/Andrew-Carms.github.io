@@ -1,7 +1,8 @@
 nav ul, footer ul { font-family:'Helvetica', 'Arial', 'Sans-Serif';
                     padding: 0px;
                     list-style: none;
-                    font-weight: bold; }
+                    font-weight: bold; 
+                    color: #999; }
 nav ul li, footer ul li { display: inline;
                           margin-right: 20px; }
 
@@ -9,10 +10,8 @@ footer { border-top: 1px solid #d5d5d5;
          font-size: .8em; }
 
 ul.posts{ border-style: groove; 
-           font-family: 'Saira Semi Condensed', sans-serif; 
-           margin-top: -0.5%;
-           margin: 20px auto 40px; 
-           font-size: 1.5em; }
+          font-family: 'Saira Semi Condensed', sans-serif; 
+          margin-top: -0.5%; }
 
 ul.posts li { list-style: none; }
 
