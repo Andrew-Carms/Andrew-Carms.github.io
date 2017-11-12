@@ -19,8 +19,10 @@ ul.posts{ border-style: groove;
           margin-top: -0.5%; }
 ul.posts li { list-style: none; }
 
-#blog{ border: 1px solid black; }
-
+#blog{ border: 1px solid black; 
+       margin: 30px auto;
+       width: 70%; }
+ 
 #top{ border-style: dashed; }
 
 #title{ text-align: center; 
