@@ -3,6 +3,11 @@ layout: default
 title: Andrew's Blog
 ---
 	
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html>
+	
 <div id="blog">
 
 <div id="top">
@@ -12,15 +17,28 @@ title: Andrew's Blog
          		<li><a href="/">Home</a></li>
          		<li><a href="/blog">Blog</a></li>
      		</ul>
- 	</nav>
-
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+ 	</nav> 
+ 	
+	<div id="title">
+  <h1>Hey Guys It's Me !</h1>
+ 	</div>
+  
+    <img id="emoji"
+src="https://i.pinimg.com/736x/36/1f/a2/361fa2246dc78579fca544e3b6c12c1c--smiley-symbol-happy-faces.jpg">
+  
+    <img id="soccer"
+src="http://www.digi-labs.net/blog/wp-content/uploads/2014/02/soccer-ball.jpg">
+  
+    <img id="grind" 
+src="http://poster.keepcalmandposters.com/77493.png">
+	
+	</div>
+	
+	<div id="footer">
+<p>  
+<img id="blogpic"
+src="https://matthewbeale.files.wordpress.com/2012/09/ned-stark-blog.jpg"> 
+</p>
 	
 		<footer>
     			<ul>
@@ -28,7 +46,8 @@ title: Andrew's Blog
         		<li><a href="https://github.com/Andrew-Carms">github.com/Andrew-Carms</a></li>
 			</ul>
 		</footer>
-		
+	</div>
+
 </div>
-	
-</div>
+								     
+</html>	
