@@ -3,6 +3,10 @@ layout: default
 ---
 	
 <!DOCTYPE html>
+		<head>
+  			<link rel="stylesheet" href="/css/main.css">
+		</head>
+
 <html>
 	<head>
 		<title>Andrew's Blog</title>
@@ -47,7 +51,7 @@ src="http://poster.keepcalmandposters.com/77493.png">
  
 <div class="content-wrapper">
  
- {% for posts in site.posts limit:3 %}
+ {% for posts in site.posts limit:10 %}
  	<h2> {{ post.title }} </h2>
  	<p> {{ post.date }} </p>
  	{{ post.excerpt }}
@@ -55,7 +59,7 @@ src="http://poster.keepcalmandposters.com/77493.png">
 	
 {{ content }}
 	 
-	 	{% include footer.html %}
+		{% include footer.html %}
 </div>
 	<footer>
 	  <ul>
