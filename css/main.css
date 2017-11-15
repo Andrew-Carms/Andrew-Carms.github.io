@@ -21,7 +21,8 @@ ul.posts{ border-style: groove;
           margin-top: -0.5%; }
 ul.posts li { list-style: none; }
 
-#blog{ border: 1px solid black; }
+#blog{ border: 1px solid black; 
+       margin: 1px auto; }
  
 #top{ border-style: dashed; }
 
